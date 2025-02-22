@@ -1,14 +1,13 @@
-.wrapper{
+/* .wrapper{
     width:420px;
-    background: rgb(160, 160, 235);
-    color: #fff;
+    background: rgb(250, 250, 250);
+    color: #000000;
     border-radius: 10px;
-    padding: 30px 40px;
+    padding: 30px;
 }
 
 .wrapper h1{
-    font-size: 36px;
-    text-align: center;
+    font-size: 33px;
 }
 
 .wrapper .input-box{
@@ -22,19 +21,19 @@
 .input-box input{
     width: 100%;
     height: 100%;
-    background: transparent;
+    background-color: #E0E0E0;
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color:#fff;
+    color:#000000;
     padding: 20px 45px 20px 20px;
 
 }
 
 .input-box input::placeholder{
-   color:#fff;
+   color:#000000;
 
 }
 .input-box .icon{
@@ -44,7 +43,13 @@
     transform: translateY(-50%);
     font-size: 16px;
 }
-
+.password_icon{
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
 .wrapper .remember-forget {
     display: flex;
     justify-content: space-between;
@@ -58,7 +63,7 @@
 }
 
 .remember-forget a{
-    color:  #fff;
+    color:  #000000;
     text-decoration: none;
 }
 
@@ -68,7 +73,7 @@
 .wrapper button{
     width:100%;
     height: 45px;
-    background: #fff;
+    background: #579DAD;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -81,15 +86,38 @@
 .wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
-    margin-top: 20px 0 15px;
+    margin-top: 20px ;
+    text-decoration: none;
+
 
 }
+
 .register-link p a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
 
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+
+.submitBtn{
+    text-decoration: none;
+    color: #fff;
+} */
+
+.btn{
+    width:100%;
+    height: 45px;
+    background: #579DAD;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+
 }
