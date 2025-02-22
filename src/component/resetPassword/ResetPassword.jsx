@@ -31,36 +31,30 @@
 
 // export default RegisterForm;
 import React from 'react';
-import './RegisterForm.css';
 import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-export const RegisterForm = () => {
+export const ResetPassword = () => {
   return (
     <div className='wrapper'>
       <form action="">
-        <h1>Register</h1>
+        <h1>Reset Password</h1>
+
         <div className='input-box'>
-          <input type="text" placeholder='First Name' required />
-          <FaUser className='icon' />
+          <input type="password" placeholder='Enter new password' required />
         </div>
         <div className='input-box'>
-          <input type="text" placeholder='Last Name' required />
-          <FaUser className='icon' />
+          <input type="password" placeholder='Confirm new password' required />
         </div>
-        <div className='input-box'>
-          <input type="number" placeholder='Age' required />
-        </div>
-        <div className='input-box'>
-          <input type="password" placeholder='Status' required />
-        </div>
-        <button type="submit"> <Link className='next_btn' to="/registerStep2">Next</Link></button>
+
+
+        <button type="submit">Confirm</button>
         <div className='register-link'>
-          <p>Already have an account? <Link to="/registerStep2">Login</Link></p>
+          <p>Already have an account? <Link to="/">Login</Link></p>
         </div>
       </form>
     </div>
   );
 }
 
-export default RegisterForm;
+export default ResetPassword;
